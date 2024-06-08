@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .time {
+    font-size: 1.5em;
+  }
+  
+  .icons i {
+    margin: 0 5px;
+  }
+  
+  .welcome-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    background: linear-gradient(45deg, #ff5e62, #ff9966);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 50px;
+  }
+  
+  .profile-details {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+  }
+  
+  .assign-task-button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .action-buttons button {
+    margin: 10px 5px 0 0;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .start-your-day {
+    padding: 20px;
+  }
+  
+  .start-your-day .icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .start-your-day .icon {
+    text-align: center;
+    width: 70px;
+    margin: 10px;
+  }
+  
+  .overview {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .today-task {
+    padding: 20px;
+  }
+  
+  .today-task .task-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .today-task .task-icon {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .view-all-button {
+    background-color: #ff9966;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
